@@ -57,53 +57,123 @@ The table structure with just the rows will be coded like this. There is a singl
 5. Wrap the data below with `th` or `td`.  The first column should be wrapped in a table-header `th` tag and the rest in table-data `td` tags.  We are considering the City name to be a row header.  This is useful for accessibility as screen readers can pick up on these tag meanings.
 ```
   row 1
-  New York City (NYC)
-  8h 15m
-  3456
-  $300
-  No
+  <th>
+    New York City (NYC)
+  </th>
+  <th>
+    8h 15m
+  </th>
+  <th>
+    3456
+  </th>
+  <th>
+    $300
+  </th>
+  <th>
+    No
+  </th>
 
   row 2           
-  Washington (WAS)
-  8h 25m
-  1111
-  $500
-  Yes
+  <th>
+    Washington (WAS)
+  </th>
+  <th>
+    8h 25m
+  </th>
+  <th>
+    1111
+  </th>
+  <th>
+    $500
+  </th>
+  <th>
+    Yes
+  </th>
 
   row 3         
-  New York City (NYC)
-  8h 40m
-  3343
-  $600
-  Yes
+  <th>
+    New York City (NYC)
+  </th>
+  <th>
+    8h 40m
+  </th>
+  <th>
+    3343
+  </th>
+  <th>
+    $600
+  </th>
+  <th>
+    Yes
+  </th>
 
   row 4      
-  Chicago (CHI)
-  8h 45m
-  7654
-  $200
-  No
+  <th>
+    Chicago (CHI)
+  </th>
+  <th>
+    8h 45m
+  </th>
+  <th>
+    7654
+  </th>
+  <th>
+    $200
+  </th>
+  <th>
+    No
+  </th>
 
   row 5     
-  Miami (MIA)
-  10h 20m
-  5566
-  $250
-  No
+  <th>
+    Miami (MIA)
+  </th>
+  <th>
+    10h 20m
+  </th>
+  <th>
+    5566
+  </th>
+  <th>
+    $250
+  </th>
+  <th>
+    No
+  </th>
 
   row 6     
-  Los Angeles (LAX)
-  11h
-  7788
-  $700
-  Yes
+  <th>
+    Los Angeles (LAX)
+  </th>
+  <th>
+    11h
+  </th>
+  <th>
+    7788
+  </th>
+  <th>
+    $700
+  </th>
+  <th>
+    Yes
+  </th>
 
-  row 7
-  Miami (MIA)
-  11h 6m
+  <th>
+    row 7
+  </th>
+  <th>
+    Miami (MIA)
+  </th>
+  <th>
+    11h 6m
+  </th>
   9988
-  $150
-  No
+  <th>
+    $150
+  </th>
+  <th>
+    No
+  </th>
 ```
 6. Add the `scope` attribute to all of the `th` tags. For the columns add `scope="col"` and for the rows ad `scope="row"`. The scope attribute helps to associate header and data cells.
 
